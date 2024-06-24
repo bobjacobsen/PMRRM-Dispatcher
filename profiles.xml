@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profileConfig>
+  <profiles>
+    <profile id="Dispatcher.3f0f7340" path="settings:Dispatcher.jmri/" />
+    <profile id="LocoBuffer.3f2666bd" path="settings:LocoBuffer.jmri/" />
+    <profile id="LocoBuffer_noAuto.3ebee759" path="settings:LocoBuffer_noAuto.jmri/" />
+    <profile id="Simulator.3f60f907" path="settings:Simulator.jmri/" />
+    <profile id="Simulator_noAuto.3cceb7de" path="settings:Simulator_noAuto.jmri/" />
+  </profiles>
+  <searchPaths>
+    <path path="settings:" default="true" />
+  </searchPaths>
+</profileConfig>
