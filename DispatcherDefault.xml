@@ -3,7 +3,7 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>6</minor>
+    <minor>8</minor>
     <test>0</test>
     <modifier />
   </jmriversion>
@@ -4057,7 +4057,7 @@
     <memory>
       <systemName>IM62</systemName>
     </memory>
-    <memory value="1:52 PM">
+    <memory value="11:17 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -9097,7 +9097,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Thu Aug 18 09:37:18 PDT 2016" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRC 4a Dispatcher" x="14" y="38" windowheight="1042" windowwidth="1897" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRC 4a Dispatcher" x="14" y="25" windowheight="975" windowwidth="1897" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC 4a Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -10291,7 +10291,7 @@
       <iconmaps />
     </signalheadicon>
     <sensoricon sensor="Main Init Done" x="370" y="557" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
       <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
@@ -11406,104 +11406,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jun 15 13:21:06 PDT 2024</date>
-      <filename>JMRI program</filename>
+      <date>Thu Jun 27 11:11:18 PDT 2024</date>
+      <filename>PanelPro (v5.8.0)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jun 15 13:22:07 PDT 2024</date>
-      <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
+      <date>Thu Jun 27 11:11:26 PDT 2024</date>
+      <filename>/Users/electricalcrew/Library/Preferences/JMRI/DispatcherDefault.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat May 25 08:26:25 PDT 2024</date>
+          <date>Sat Jun 15 13:21:06 PDT 2024</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat May 25 08:27:44 PDT 2024</date>
+          <date>Sat Jun 15 13:22:07 PDT 2024</date>
           <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat May 18 13:06:01 PDT 2024</date>
+              <date>Sat May 25 08:26:25 PDT 2024</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat May 18 13:15:02 PDT 2024</date>
+              <date>Sat May 25 08:27:44 PDT 2024</date>
               <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Apr 27 13:59:34 PDT 2024</date>
+                  <date>Sat May 18 13:06:01 PDT 2024</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Apr 27 14:11:57 PDT 2024</date>
+                  <date>Sat May 18 13:15:02 PDT 2024</date>
                   <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Apr 13 16:03:51 PDT 2024</date>
+                      <date>Sat Apr 27 13:59:34 PDT 2024</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Apr 13 16:04:14 PDT 2024</date>
+                      <date>Sat Apr 27 14:11:57 PDT 2024</date>
                       <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Apr 13 12:33:51 PDT 2024</date>
+                          <date>Sat Apr 13 16:03:51 PDT 2024</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Apr 13 12:34:21 PDT 2024</date>
+                          <date>Sat Apr 13 16:04:14 PDT 2024</date>
                           <filename>/Users/pmrrm/Library/Preferences/JMRI/PMRRC%204a%20Dispatch.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Apr 13 14:43:54 PDT 2024</date>
+                          <date>Sat Apr 13 16:11:20 PDT 2024</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Apr 13 16:11:20 PDT 2024</date>
+                      <date>Sat Apr 27 15:58:04 PDT 2024</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Apr 27 15:58:04 PDT 2024</date>
+                  <date>Sat May 18 15:47:23 PDT 2024</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat May 18 15:47:23 PDT 2024</date>
+              <date>Sat May 25 13:22:51 PDT 2024</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat May 25 13:22:51 PDT 2024</date>
+          <date>Sat Jun 15 13:52:09 PDT 2024</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jun 15 13:52:09 PDT 2024</date>
-      <filename />
+      <date>Thu Jun 27 11:17:10 PDT 2024</date>
+      <filename>/Users/electricalcrew/Library/Preferences/JMRI/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Jun 15 13:52:09 PDT 2024-->
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Jun 27 11:17:10 PDT 2024-->
 </layout-config>
