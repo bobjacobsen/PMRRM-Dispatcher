@@ -3,7 +3,7 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>6</minor>
+    <minor>8</minor>
     <test>0</test>
     <modifier />
   </jmriversion>
@@ -8017,7 +8017,7 @@
     </signalelement>
   </signalelements>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route userName="Mainline Init" addedDelay="500">
+    <route userName="Mainline Init" addedDelay="167">
       <systemName>IO:AUTO:0001</systemName>
       <userName>Mainline Init</userName>
       <routeOutputTurnout systemName="AF A to Bend 1" state="CLOSED" />
@@ -10213,18 +10213,18 @@
       <tooltip>IM50</tooltip>
     </memoryicon>
     <BlockContentsIcon blockcontents="GH" x="1110" y="186" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="left" selectable="no" class="jmri.jmrit.display.configurexml.BlockContentsIconXml" />
-    <sensoricon sensor="Main Init" x="328" y="551" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Main Init" x="332" y="552" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Main Init (IS20)</tooltip>
-      <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/plate/levers/switch-mid.gif" degrees="0" scale="1.0">
+      <unknown url="program:resources/icons/USS/plate/levers/codeButton-unknown.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/plate/levers/switch-inconsistent.gif" degrees="0" scale="1.0">
+      <inconsistent url="program:resources/icons/USS/plate/levers/codeButton-inconsistent.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
@@ -11430,17 +11430,17 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <sensoricon sensor="Main Init Done" x="355" y="563" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+    <sensoricon sensor="Main Init Done" x="370" y="557" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+      <unknown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+      <inconsistent url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
